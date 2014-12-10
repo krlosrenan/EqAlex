@@ -3,7 +3,7 @@
 -- 
 
 CREATE TABLE `notas` (
-  `id` int(11d) NOT NULL auto_increment,
+  `id` int(11) NOT NULL auto_increment,
   `id_usuario` int(11) NOT NULL default '1',
   `id_disc` int(11) NOT NULL default '1',
   `n1` varchar(5) NOT NULL default '',
